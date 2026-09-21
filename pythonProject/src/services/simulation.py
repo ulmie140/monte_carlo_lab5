@@ -2,7 +2,6 @@ from src.domain.lfsr import LFSRGenerator
 
 
 class MonteCarloSimulation:
-    """Модель расчета издержек по методу Монте-Карло."""
 
     def __init__(self, a_percent: float, cost_b: float, cost_c: float, cost_d: float, n_trials: int = 10000):
         self.prob_defect = a_percent / 100.0
